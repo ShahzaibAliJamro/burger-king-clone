@@ -28,8 +28,61 @@ body{
     color: rgb(80, 35, 20);
 }
 .ab{
-    width: 40%;
+    width: 45%;
 }
 .abc{
-    width: 60%;
+    width: 55%;
+}
+.divider1{
+    background-color: #d2c8bd;
+    height: 1px;
+    width: 100%;
+}
+.herotextin{
+    font-family: "Flame Bold";
+    color: #502314;
+    font-size: 60px;
+    font-weight : 400;
+    text-align: start;
+}
+.herobutton-1{
+    background-color: #d62300;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    max-width: 300px !important;
+    text-align: center;
+    display: block;
+}
+@media(max-width:768px){
+    .header-but-2{
+        display: none;
+    }
+}
+@media(max-width:550px){
+    .ab{
+        width: 40%;
+    }
+    .abc{
+        width: 60%;
+    }
+}
+@media(max-width:450px){
+    .ab{
+        width: 37%;
+    }
+    .abc{
+        width: 63%;
+    }
+}
+@media(max-width:370px){
+    .ab{
+        width: 35%;
+    }
+    .abc{
+        width: 65%;
+    }
 }
