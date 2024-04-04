@@ -1,0 +1,35 @@
+body{
+    background-color: #f5ebdc !important;
+}
+.container-fluid{
+    max-width: 1200px;
+}
+.logo-img{
+    width: 45px;
+}
+.header-but-1{
+    background-color: #d62300;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-but-1:hover{
+    background-color: #b44731;
+}
+.header-but-2{
+    background-color: maroon;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-but-2:hover{
+    background-color: #b44731;
+}
+.head-bar{
+    font-size: 24px;
+    color: rgb(80, 35, 20);
+}
+.ab{
+    width: 40%;
+}
+.abc{
+    width: 60%;
+}
