@@ -38,6 +38,12 @@ body{
     height: 1px;
     width: 100%;
 }
+.herostart{
+    width: 35%;
+}
+.heroend{
+    width: 65%;
+}
 .herotextin{
     font-family: "Flame Bold";
     color: #502314;
@@ -53,14 +59,113 @@ body{
     padding-bottom: 14px !important;
     padding-right: 16px !important;
     padding-left: 16px !important;
-    max-width: 300px !important;
+    max-width: 280px !important;
     text-align: center;
     display: block;
+}
+.herobutton-1:hover{
+    background-color: maroon;
+}
+.herobutton-2{
+    border: 1px solid #d62300;
+    color: #d62300;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    max-width: 280px !important;
+    text-align: center;
+    display: block;
+}
+.herobutton-2:hover{
+    background-color: #ecc9c2;
+}
+.heroimg{
+    width: 100%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroimg-2{
+    display: none;
+}
+.herobuttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.herobuttons-2{
+    display: none;
+    flex-direction: column;
+    row-gap: 10px;
+}
+@media(max-width:900px){
+    .herotextin{
+        font-size: 50px;
+    }
+    .herobutton-1{
+        font-size: 16px;
+        max-width: 250px !important;
+    }
+    .herobutton-2{
+        font-size: 16px;
+        max-width: 250px !important;
+    }
 }
 @media(max-width:768px){
     .header-but-2{
         display: none;
     }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        /* row-gap: 10px; */
+        margin-top: 10px;
+    }
+    .herostart{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .herobuttons{
+        align-items: center;
+        display: none;
+    }
+    .herotextin{
+        text-align: center;
+    }
+    .heroend{
+        width: 100%;
+    }
+    .heroimg{
+        display: none;
+    }
+    .heroimg-2{
+        display: block;
+        width: 100%;
+    }
+    .herobuttons-2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .herobutton-1{
+        font-size: 16px;
+        max-width: 100% !important;
+    }
+    .herobutton-2{
+        font-size: 16px;
+        max-width: 100% !important;
+    }
+
 }
 @media(max-width:550px){
     .ab{
