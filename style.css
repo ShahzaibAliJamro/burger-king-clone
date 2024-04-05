@@ -103,10 +103,10 @@ body{
     flex-direction: column;
     row-gap: 10px;
 }
-.card-main{
+/* .card-main{
     flex-wrap: wrap;
     row-gap: 3rem;
-}
+} */
 .card{
     width: 49.2%;
     transition-duration: 0.3s;
@@ -132,6 +132,46 @@ body{
     font-family: Flame Sans;
     color: #502314;
 }
+.card-button-in{
+    text-decoration: none;
+    border: 1px solid #d62300;
+    color: #d62300;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    text-align: center;
+    font-family: Flame Sans;
+}
+.card-button-in:hover{
+    background-color: #ecc9c2;
+}
+.app-section-out{
+    background-color: #ebe2d3;
+}
+.app-text-heading{
+    font-family: Flame Bold;
+    font-size: 48px;
+    font-weight: 400;
+    color: #502314;
+}
+.app-img{
+    width: 40%;
+}
+.app-text{
+    width: 50%;
+}
+.app-text-para{
+    color: #502314;
+    font-family: Flame Sans;
+    font-size: 14px;
+}
+.stores{
+    width: 160px;
+    height: 50px;
+} 
 @media(max-width:900px){
     .herotextin{
         font-size: 50px;
@@ -196,6 +236,15 @@ body{
     }
     .herotextin{
         font-size: 32px;
+    }
+    .card-main{
+        flex-direction: column !important;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-main{
+        row-gap: 1rem !important;
     }
 }
 @media(max-width:550px){
