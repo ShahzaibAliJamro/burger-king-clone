@@ -165,7 +165,9 @@ body{
         font-size: 16px;
         max-width: 100% !important;
     }
-
+    .herotextin{
+        font-size: 32px;
+    }
 }
 @media(max-width:550px){
     .ab{
