@@ -447,6 +447,9 @@ body{
     .abc{
         width: 60%;
     }
+    .abcd{
+        margin-bottom: 50px !important;
+    }
     .app-img-2{
         display: block;
         width: 160px;
