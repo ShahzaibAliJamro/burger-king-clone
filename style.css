@@ -187,6 +187,22 @@ body{
     justify-content: space-between;
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.abcd{
+    margin-bottom: 100px;
+}
+@media(max-width:960px){
+    .app-img-2{
+        display: block;
+        width: 100%;
+        /* width: 170px;
+        height: 238px; */
+    }
+    .app-img-1{
+        display: none;
+    }
 }
 @media(max-width:900px){
     .herotextin{
@@ -264,8 +280,8 @@ body{
     }
     .app-img-2{
         display: block;
-        width: 170px;
-        height: 238px;
+        width: 180px;
+        height: 252px;
     }
     .app-img-1{
         display: none;
@@ -278,10 +294,12 @@ body{
         display: none;
     }
     .app-text-heading{
-        font-size: 30px;
+        font-size: 33px;
     }
     .app-section{
         justify-content: center;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
     }
     /* .app-img{
         width: 35%;
@@ -302,6 +320,14 @@ body{
         padding-right: 1rem !important;
         padding-left: 1rem !important;
     }
+    .app-img-2{
+        display: block;
+        width: 170px;
+        height: 238px;
+    }
+    .app-text-heading{
+        font-size: 30px;
+    }
 }
 @media(max-width:550px){
     .ab{
@@ -310,6 +336,19 @@ body{
     .abc{
         width: 60%;
     }
+    .app-img-2{
+        display: block;
+        width: 160px;
+        height: 224px;
+        margin-top: -30px;
+    }
+    .app-text {
+        /* padding-left: 25px; */
+        width: 50%;
+    }
+    /* .app-img{
+        width: 50%;
+    } */
     .app-section{
         justify-content: center;
         padding-right: 0rem !important;
@@ -322,6 +361,9 @@ body{
     }
     .abc{
         width: 63%;
+    }
+    .app-img{
+        width: 50%;
     }
 }
 @media(max-width:370px){
