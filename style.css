@@ -171,7 +171,23 @@ body{
 .stores{
     width: 160px;
     height: 50px;
-} 
+}
+.app-img-2{
+    display: none;
+}
+.app-text-2{
+    display: block;
+}
+.app-text-3{
+    display: none;
+}
+.app-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
 @media(max-width:900px){
     .herotextin{
         font-size: 50px;
@@ -246,6 +262,46 @@ body{
     .card-main{
         row-gap: 1rem !important;
     }
+    .app-img-2{
+        display: block;
+        width: 170px;
+        height: 238px;
+    }
+    .app-img-1{
+        display: none;
+    }
+    .app-text-3{
+        display: block;
+        text-align: center;
+    }
+    .app-text-2{
+        display: none;
+    }
+    .app-text-heading{
+        font-size: 30px;
+    }
+    .app-section{
+        justify-content: center;
+    }
+    /* .app-img{
+        width: 35%;
+    } */
+    .app-text{
+        width: 65%;
+    }
+}
+@media(max-width:650px){
+    .ab{
+        width: 40%;
+    }
+    .abc{
+        width: 60%;
+    }
+    .app-section{
+        justify-content: center;
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
 }
 @media(max-width:550px){
     .ab{
@@ -253,6 +309,11 @@ body{
     }
     .abc{
         width: 60%;
+    }
+    .app-section{
+        justify-content: center;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
     }
 }
 @media(max-width:450px){
