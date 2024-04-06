@@ -13,19 +13,22 @@
     <!-- header section started -->
     <!-- header section started -->
 
-    <div class="container-fluid">
-        <header class="d-flex justify-content-between align-items-center w-100 py-2">
-            <div class="ab">
-                <i class="fa-solid head-bar fa-bars"></i>
-            </div>
-            <div class="abc d-flex align-items-center justify-content-between">
-                <img class="logo-img" src="burger-king.png" alt="">
-                <div class="header-buttons">
-                    <a class="text-decoration-none py-2 px-3 rounded-pill me-1 header-but-1 text-light" href="#">Signup / Signin</a>
-                    <a class="text-decoration-none py-2 px-3 rounded-pill header-but-2 text-light" href="#"><i class="fa-solid fa-bag-shopping pe-1"></i> $0.00</a>
+    <div class="header-out">
+        <div class="container-fluid">
+            <header class="d-flex justify-content-between align-items-center w-100 py-2">
+                <div class="ab">
+                    <i style="cursor: pointer;" class="fa-solid head-bar fa-bars"></i>
                 </div>
-            </div>
-        </header>
+                <div class="abc d-flex align-items-center justify-content-between">
+                    <a href="#top"><img class="logo-img" src="burger-king.png" alt="">
+                    <div class="header-buttons">
+                        <a class="text-decoration-none py-2 px-3 rounded-pill me-1 header-but-1 text-light" href="#">Signup / Signin</a>
+                        <a class="text-decoration-none py-2 px-3 rounded-pill header-but-2 text-light" href="#"><i class="fa-solid fa-bag-shopping pe-1"></i> $0.00</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="divider"></div>
     </div>
 
     <!-- header section ended -->
@@ -36,7 +39,7 @@
     <!-- hero section started -->
     <!-- hero section started -->
 
-    <div class="container-fluid">
+    <div id="top" class="container-fluid">
         <div class="hero">
             <div class="herostart">
                 <div class="herotext">
@@ -144,7 +147,7 @@
                 </div>
             </div>
             <div class="app-text-3">
-                <div class="mt-4">
+                <div class="mt-4 w-100 px-3 d-flex justify-content-center">
                     <img class="me-3 stores" src="app-store.webp" alt="">
                     <img class="stores" src="c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp" alt="">
                 </div>
@@ -152,6 +155,55 @@
             </div>
         </div>
     </div>
+
+    <!-- app section ended -->
+    <!-- app section ended -->
+
+
+
+    <!-- copyright section started -->
+    <!-- copyright section started -->
+
+    <div class="copyright w-100 d-flex justify-content-center text-center p-3">
+        <p class="copyright-text">TM & Copyright 2024 Burger King Company LLC. All Rights Reserved.
+            | <a style="color: inherit;" href="#"> 
+                Do Not Sell Or Share My Personal Information</a></p>
+    </div>
+
+    <!-- copyright section ended -->
+    <!-- copyright section ended -->
+
+
+
+    <!-- footer menu section started -->
+    <!-- footer menu section started -->
+
+    <div class="footer-menu-out">
+        <div class="divider"></div>
+        <div class="container-fluid">
+            <div class="footer-menu py-2 d-flex justify-content-between">
+                <div class="menu-items Home">
+                    <img class="menu-items-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAABcSAAAXEgFnn9JSAAAC4klEQVRoge3ZTYiNURgH8L+PBVkQdm6N+zx3bohJY1JIioWSLJQFja/U1Fj4WJlszAr5SCIljZhiISMNJVFDNpJC8z7Pey0YzUoWU1KMNK7OzbhzZ+bNOe/9eM/Ufeq/u73n+XXOPe/HAepVr3olUnlguhDalfBcCH0hYV8emIapVLoEC5TwSBn5sRFCb5DCfEyFUkazED6OR/wLYVAZa+BzKWOPML5HIoqYX0o45t1SG2jALCFc+y9gIuj+mwbMgw8li9GgjFfOiGI+BWmsThShaWxVxlAZiNFNYFgIh2sOyAMzhNEpjJFyESUgRs8HwtyaIHJZLBTC40oCxmFyuTSaqooICS3CGKgWQouYHyGjrToIRpsSflYboaW7WvfbJsypCGAwhdnKuF5TAJfMTqiE5WUhNI2sMPqTQmhxZr6FhF2xEELYJISviSN4zOwQ2p2XkxC+JN24TsxQ3wbMtIaEjLUeNJ2fLO8ySLlANifdsEYkYGSsIQFjW9INa1RcdjDJYEfiDfPkCRmrXCCtSTesEckR1rlADiTdsEYkIGy0hmgGB5NuWCMihC0ukKNJN6xRIWy3hxA6PIbsdIGcqNhSYIxU8gUsIOy3hgjhZJnNmy8pZ8yeb94mTULCCiWcNe8aNXveEsL5Mgb7HDRiZeRsM5rNb8pYWkdcIJfiLiObfV7SWC+M3zEhHfYQxtWYkB7bMcw3rZhjdFpDlNEVa5AMWh0ge2NCTtlDCN1xBjGP/7ZjmCUYE3LBGiKM27EghBbbMcxvY/1HGFesIUq44zGkyxoijHu+QoRxywXywGPIXWvIZKdNHkEe2kMYT3yFKOOpNcQcXnoMeWENMSex3kIIL60hQrjsK0QIvdaQIINlcT6XVhsihGHzzQ0u9b4Ri4RwSBinTZRx0TxMjsmNwo3zbwr3njSyttfvb8RSYbwuhPDMbDBiDpBGr0e4WRiHcE4Yx4Wx2xwyOSHqVa96YbT+AA6XZlBNoYkXAAAAAElFTkSuQmCC" alt="">
+                    <p class="m-0 menu-items-name">Home</p>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-items-img" src="https://www.bk.com/static/media/7ba95726ef76f181e658ceb137277d2a9be17db2-26x24.0495a4ebf035594acdf1.png" alt="">
+                    <p class="m-0 menu-items-name">Menu</p>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-items-img" src="https://www.bk.com/static/media/00553ce0b224cdeb1269bc2c756d8775c0b21a9f-24x24.0307ef2649472064402d.png" alt="">
+                    <p class="m-0 menu-items-name">Offers</p>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-items-img" src="https://www.bk.com/static/media/ca61127dd95f2e6473303320dba757fa9c1d45e1-24x24.4371e92a85182b7310f4.png" alt="">
+                    <p class="m-0 menu-items-name">Rewards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer menu section ended -->
+    <!-- footer menu section ended -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e686848577.js" crossorigin="anonymous"></script>
 </body>
