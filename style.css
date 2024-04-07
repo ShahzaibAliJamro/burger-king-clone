@@ -140,12 +140,27 @@ body{
 .card-img{
     border-top-left-radius: 12px !important;
     border-top-right-radius: 12px !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.xyz{
+    margin-top: 3rem;
+    text-align: end;
+}
+.xy{
+    text-align: end;
 }
 .card-text{
     font-size: 13px;
     font-weight: 400;
     font-family: Flame Sans;
     color: #502314;
+}
+.card-in{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 .card-button-in{
     text-decoration: none;
@@ -467,6 +482,19 @@ body{
         justify-content: center;
         padding-right: 0rem !important;
         padding-left: 0rem !important;
+    }
+    .xyz{
+        margin-top: 1rem;
+        text-align: end;
+    }
+    .xy{
+        text-align: end;
+    }
+    .card-in{
+        padding-top: 1rem;
+        padding-bottom: 1.4rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
 }
 @media(max-width:450px){
