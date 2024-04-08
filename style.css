@@ -1,6 +1,15 @@
 body{
     background-color: #f5ebdc !important;
 }
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f5ebdc;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #502314;
+    border-radius: 1px;
+}
 .header-out{
     background-color: #f5ebdc;
     position: fixed;
