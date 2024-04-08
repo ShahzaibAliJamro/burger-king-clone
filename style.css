@@ -603,6 +603,10 @@ body{
     }
     .header-but-1{
         font-size: 12px;
+        padding-top: .6rem !important;
+        padding-bottom: .6rem !important;
+        padding-right: 0.8rem !important;
+        padding-left: 0.8rem !important;
     }
     .head-bar {
         font-size: 20px;
@@ -621,7 +625,7 @@ body{
         width: 43.3%;
     }
     .abc{
-        width: 57%;
+        width: 70%;
     }
     .app-img-2{
         width: 100%;
