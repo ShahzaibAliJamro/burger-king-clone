@@ -623,6 +623,7 @@ body{
 @media(max-width:370px){
     .ab {
         width: 43.3%;
+        margin-bottom: -7px;
     }
     .abc{
         width: 58%;
